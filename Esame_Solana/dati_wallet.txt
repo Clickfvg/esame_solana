@@ -1,0 +1,108 @@
+solana-keygen new --outfile ./my-solana-wallet.json
+>>
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text 
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to ./my-solana-wallet.json
+=======================================================================
+pubkey: 4NxrwKq7yNTpqBEgNKCUVT2JVb5Yf7Z51UHByqMD54bB        
+=======================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+dial pill simple magnet host bamboo riot before motor rain credit build
+=======================================================================
+
+- - - - - 
+
+Requesting airdrop of 1 SOL
+
+Signature: 3CdAeFSuScfuyyiLa91Cnb2E21JryEHhBZGGwX5TW2X6H1C9M15FDAaJMPcHZbDwNnpbSbvxNfUcZVp1jEy1eZRQ
+
+12.99295824 SOL
+
+- - - - - 
+
+Creating token 3iEtepsZZECYkXqUZKwJskHQD6giHhfxLK7nHZkEcLcC 
+under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA   
+
+Address:  3iEtepsZZECYkXqUZKwJskHQD6giHhfxLK7nHZkEcLcC      
+Decimals:  9
+
+Signature: 2Km2b2sTSVM3h5Z2ypo3Cfv1uYD9boLhg9rv5zXVHsKNTda5kV31zvMM8Li9fvsqe51g1dL3HJ5FasE5TkkdiYZV
+
+- - - - -
+
+Creating account FK8eBfFisjGsx1avmBzZWR2cNHPi2gn6n7aecsaEgyrg
+
+Signature: gAkctBYp19NDa3RoQLPZ2PCQckxVHZZP3VXb7L31rKWTkXUCu8NbLcoaRjr5NdNytVKDeCRfs3yYY13doVqWZP9
+
+- - - - - 
+
+Minting 1 tokens
+  Token: 3iEtepsZZECYkXqUZKwJskHQD6giHhfxLK7nHZkEcLcC
+  Recipient: FK8eBfFisjGsx1avmBzZWR2cNHPi2gn6n7aecsaEgyrg
+
+Signature: 2i9cQMh6L2wDkWoLD8bkycxrkUzV6gSwCrSWuADBNckaMC4ZZVrFPB6dwpzKZPyctUBLwEAfoWaHUcQEjF6phzS
+
+- - - - - 
+
+Token Balance
+-----------------------------------------------------
+aowxfYSYHAfdwpJcMarESGFhAteAAt8QiZx3R5Ggg8g   1
+3iEtepsZZECYkXqUZKwJskHQD6giHhfxLK7nHZkEcLcC  1
+4p2JDWY2PLxWcCe2ZBFzyKW7aQZXXvzGisSFGLxu5KgB  1
+
+- - - - 
+
+nuovo wallet 
+
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to ./my-solana-wallet_2.json
+==================================================================
+pubkey: 44nGJR4Bp2cJGWAarJnELAEcsXcT2xes5egrMxwYniyj
+==================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+tide meat kind degree trade more rail derive curve ride jungle lab
+==================================================================
+PS C:\Users\dishe\Desktop\Esame_Solana>
+
+- - - -
+
+nuovo wallet 
+
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to ./my-solana-wallet_3.json
+=======================================================================
+pubkey: ANaUEANBCvKweJnkvpmeV7sYvnPBuXab3vSawa2SRZ2t
+=======================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+vast water author oil offer bleak alarm fiscal fog blanket cream rhythm
+
+
+
+
+
+solana transfer 4NxrwKq7yNTpqBEgNKCUVT2JVb5Yf7Z51UHByqMD54bB 1 --from ./my-solana-wallet_2.json --allow-unfunded-recipient
+
+solana transfer 44nGJR4Bp2cJGWAarJnELAEcsXcT2xes5egrMxwYniyj 1 --from ./my-solana-wallet.json --allow-unfunded-recipient
